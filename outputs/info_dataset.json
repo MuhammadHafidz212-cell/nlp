@@ -1,0 +1,49 @@
+{
+  "dataset_id": "dipawidia/ecommerce-product-reviews-sentiment",
+  "sumber_pemuatan": "datasets.load_dataset",
+  "jumlah_per_split": {
+    "train": 11606
+  },
+  "total_baris": 11606,
+  "kolom": [
+    "review",
+    "translate",
+    "sentimen",
+    "split_asal",
+    "label_sentimen"
+  ],
+  "tipe_data": {
+    "review": "str",
+    "translate": "str",
+    "sentimen": "int64",
+    "split_asal": "str",
+    "label_sentimen": "str"
+  },
+  "missing_per_kolom": {
+    "review": 0,
+    "translate": 0,
+    "sentimen": 0,
+    "split_asal": 0,
+    "label_sentimen": 0
+  },
+  "total_missing": 0,
+  "duplikat": 4,
+  "kolom_teks": "review",
+  "kolom_label": "sentimen",
+  "label_map": {
+    "0": "Negatif",
+    "1": "Positif"
+  },
+  "distribusi_label": [
+    {
+      "label": "Negatif",
+      "jumlah": 5803,
+      "persentase": 50.0
+    },
+    {
+      "label": "Positif",
+      "jumlah": 5803,
+      "persentase": 50.0
+    }
+  ]
+}

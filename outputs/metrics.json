@@ -1,0 +1,139 @@
+{
+  "jumlah_data": 11606,
+  "jumlah_per_split": {
+    "train": 11606
+  },
+  "kolom_teks": "review",
+  "kolom_label": "sentimen",
+  "label_map": {
+    "0": "Negatif",
+    "1": "Positif"
+  },
+  "distribusi_label": [
+    {
+      "label": "Negatif",
+      "jumlah": 5803,
+      "persentase": 50.0
+    },
+    {
+      "label": "Positif",
+      "jumlah": 5803,
+      "persentase": 50.0
+    }
+  ],
+  "missing_total": 0,
+  "duplikat": 4,
+  "rata_panjang_karakter_sebelum": 103.57,
+  "rata_panjang_karakter_sesudah": 68.67,
+  "rata_jumlah_kata_sebelum": 15.76,
+  "rata_jumlah_kata_sesudah": 11.41,
+  "perubahan_panjang_karakter_persen": -33.7,
+  "perubahan_jumlah_kata_persen": -27.6,
+  "vocab_mentah": 23371,
+  "vocab_sebelum": 12548,
+  "vocab_sesudah": 10066,
+  "vocab_reduksi_persen": 19.78,
+  "teks_kosong": 16,
+  "teks_kosong_persen": 0.14,
+  "top10_sebelum": [
+    {
+      "kata": "barang",
+      "frekuensi": 3838
+    },
+    {
+      "kata": "bagus",
+      "frekuensi": 3019
+    },
+    {
+      "kata": "di",
+      "frekuensi": 2930
+    },
+    {
+      "kata": "pengiriman",
+      "frekuensi": 2824
+    },
+    {
+      "kata": "dan",
+      "frekuensi": 2818
+    },
+    {
+      "kata": "nya",
+      "frekuensi": 2790
+    },
+    {
+      "kata": "dengan",
+      "frekuensi": 2084
+    },
+    {
+      "kata": "ada",
+      "frekuensi": 1970
+    },
+    {
+      "kata": "baik",
+      "frekuensi": 1847
+    },
+    {
+      "kata": "lama",
+      "frekuensi": 1675
+    }
+  ],
+  "top10_sesudah": [
+    {
+      "kata": "barang",
+      "frekuensi": 3838
+    },
+    {
+      "kata": "bagus",
+      "frekuensi": 3019
+    },
+    {
+      "kata": "pengiriman",
+      "frekuensi": 2824
+    },
+    {
+      "kata": "nya",
+      "frekuensi": 2790
+    },
+    {
+      "kata": "sesuai",
+      "frekuensi": 1670
+    },
+    {
+      "kata": "cepat",
+      "frekuensi": 1657
+    },
+    {
+      "kata": "yg",
+      "frekuensi": 1648
+    },
+    {
+      "kata": "tidak",
+      "frekuensi": 1433
+    },
+    {
+      "kata": "harga",
+      "frekuensi": 1277
+    },
+    {
+      "kata": "ga",
+      "frekuensi": 1159
+    }
+  ],
+  "jumlah_stopword_sastrawi": 123,
+  "jumlah_stopword_nltk": 757,
+  "jumlah_stopword_dipakai": 765,
+  "negasi_dipertahankan": [
+    "belum",
+    "bukan",
+    "enggak",
+    "jangan",
+    "kurang",
+    "nggak",
+    "tak",
+    "tanpa",
+    "tidak"
+  ],
+  "jumlah_kata_unik_di_stem": 12082,
+  "waktu_preprocessing_detik": 1311.44,
+  "waktu_jalan": "2026-11-23T13:40:41"
+}
