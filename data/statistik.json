@@ -1,0 +1,170 @@
+{
+  "nama": "Muhammad Hafidz",
+  "nim": "24146028",
+  "github": "https://github.com/MuhammadHafidz212-cell/nlp",
+  "tanggal": "23-11-2026",
+  "dataset": {
+    "nama": "dipawidia/ecommerce-product-reviews-sentiment",
+    "sumber": "https://huggingface.co/datasets/dipawidia/ecommerce-product-reviews-sentiment",
+    "metode_load": "datasets.load_dataset (split='train')",
+    "jumlah_data": 11606,
+    "kolom": [
+      "review",
+      "translate",
+      "sentimen"
+    ],
+    "tipe_data": {
+      "review": "str",
+      "translate": "str",
+      "sentimen": "int64"
+    },
+    "missing": {
+      "review": 0,
+      "translate": 0,
+      "sentimen": 0
+    },
+    "duplikat": 4,
+    "label_kolom": "sentimen",
+    "distribusi_label": {
+      "0": {
+        "keterangan": "negatif",
+        "jumlah": 5803,
+        "persentase": 50.0
+      },
+      "1": {
+        "keterangan": "positif",
+        "jumlah": 5803,
+        "persentase": 50.0
+      }
+    }
+  },
+  "contoh_indeks": [
+    8077,
+    10959,
+    5786,
+    2503,
+    10113,
+    4299,
+    10333,
+    4877,
+    8239,
+    7078
+  ],
+  "contoh": [
+    {
+      "no": 1,
+      "index_asli": 8077,
+      "review": "Barangnya original 👍. Bisa muat banyak. Gampang dipakai. Penjualnya kurang ramah",
+      "case_folding": "barangnya original 👍. bisa muat banyak. gampang dipakai. penjualnya kurang ramah",
+      "cleaning": "barangnya original bisa muat banyak gampang dipakai penjualnya kurang ramah",
+      "tokenisasi": "barangnya original bisa muat banyak gampang dipakai penjualnya kurang ramah",
+      "stopword_removal": "barangnya original muat gampang dipakai penjualnya ramah",
+      "stemming": "barang original muat gampang pakai jual ramah"
+    },
+    {
+      "no": 2,
+      "index_asli": 10959,
+      "review": "Barang sudah sampai pengirimannya cepat",
+      "case_folding": "barang sudah sampai pengirimannya cepat",
+      "cleaning": "barang sudah sampai pengirimannya cepat",
+      "tokenisasi": "barang sudah sampai pengirimannya cepat",
+      "stopword_removal": "barang pengirimannya cepat",
+      "stemming": "barang kirim cepat"
+    },
+    {
+      "no": 3,
+      "index_asli": 5786,
+      "review": "realpict, packing oke",
+      "case_folding": "realpict, packing oke",
+      "cleaning": "realpict packing oke",
+      "tokenisasi": "realpict packing oke",
+      "stopword_removal": "realpict packing oke",
+      "stemming": "realpict packing oke"
+    },
+    {
+      "no": 4,
+      "index_asli": 2503,
+      "review": "Cuman bisa komen 👍👍👍",
+      "case_folding": "cuman bisa komen 👍👍👍",
+      "cleaning": "cuman bisa komen",
+      "tokenisasi": "cuman bisa komen",
+      "stopword_removal": "cuman komen",
+      "stemming": "cuman komen"
+    },
+    {
+      "no": 5,
+      "index_asli": 10113,
+      "review": "mantap banget, pengiriman cepat pesan sekarang besok sudah ditangan.Desain elegan 😍. Resolusi gambar tajam 👍.",
+      "case_folding": "mantap banget, pengiriman cepat pesan sekarang besok sudah ditangan.desain elegan 😍. resolusi gambar tajam 👍.",
+      "cleaning": "mantap banget pengiriman cepat pesan sekarang besok sudah ditangan desain elegan resolusi gambar tajam",
+      "tokenisasi": "mantap banget pengiriman cepat pesan sekarang besok sudah ditangan desain elegan resolusi gambar tajam",
+      "stopword_removal": "mantap banget pengiriman cepat pesan besok ditangan desain elegan resolusi gambar tajam",
+      "stemming": "mantap banget kirim cepat pesan besok tang desain elegan resolusi gambar tajam"
+    },
+    {
+      "no": 6,
+      "index_asli": 4299,
+      "review": "awalnya dikrm hanya unit saja, setelah komplain baru dikrm dan info bonus bundling harusnya diupdate kalo tumbler dah habis..jadi tidak buat pelanggan kecewa ",
+      "case_folding": "awalnya dikrm hanya unit saja, setelah komplain baru dikrm dan info bonus bundling harusnya diupdate kalo tumbler dah habis..jadi tidak buat pelanggan kecewa ",
+      "cleaning": "awalnya dikrm hanya unit saja setelah komplain baru dikrm dan info bonus bundling harusnya diupdate kalo tumbler dah habis jadi tidak buat pelanggan kecewa",
+      "tokenisasi": "awalnya dikrm hanya unit saja setelah komplain baru dikrm dan info bonus bundling harusnya diupdate kalo tumbler dah habis jadi tidak buat pelanggan kecewa",
+      "stopword_removal": "dikrm unit komplain dikrm info bonus bundling diupdate kalo tumbler dah habis pelanggan kecewa",
+      "stemming": "dikrm unit komplain dikrm info bonus bundling diupdate kalo tumbler dah habis langgan kecewa"
+    },
+    {
+      "no": 7,
+      "index_asli": 10333,
+      "review": "menurut infonya free Mola TV tp ternyata perlu bayar, setelah diskusi panjang akhirnya diketahui kalau OS nya tidak diupdate...pembelian belum ada 7 hari sejak TV di terima...",
+      "case_folding": "menurut infonya free mola tv tp ternyata perlu bayar, setelah diskusi panjang akhirnya diketahui kalau os nya tidak diupdate...pembelian belum ada 7 hari sejak tv di terima...",
+      "cleaning": "menurut infonya free mola tv tp ternyata perlu bayar setelah diskusi panjang akhirnya diketahui kalau os nya tidak diupdate pembelian belum ada hari sejak tv di terima",
+      "tokenisasi": "menurut infonya free mola tv tp ternyata perlu bayar setelah diskusi panjang akhirnya diketahui kalau os nya tidak diupdate pembelian belum ada hari sejak tv di terima",
+      "stopword_removal": "infonya free mola tv tp bayar diskusi os diupdate pembelian tv terima",
+      "stemming": "info free mola tv tp bayar diskusi os diupdate beli tv terima"
+    },
+    {
+      "no": 8,
+      "index_asli": 4877,
+      "review": "Pesanan sesuai cuma syang nya gak ada saringanya buat mengkukus lain kali lebih teliti lgi ya",
+      "case_folding": "pesanan sesuai cuma syang nya gak ada saringanya buat mengkukus lain kali lebih teliti lgi ya",
+      "cleaning": "pesanan sesuai cuma syang nya gak ada saringanya buat mengkukus lain kali lebih teliti lgi ya",
+      "tokenisasi": "pesanan sesuai cuma syang nya gak ada saringanya buat mengkukus lain kali lebih teliti lgi ya",
+      "stopword_removal": "pesanan sesuai syang gak saringanya mengkukus teliti lgi",
+      "stemming": "pesan sesuai syang gak saringanya kukus teliti lgi"
+    },
+    {
+      "no": 9,
+      "index_asli": 8239,
+      "review": "remote control tidak peka",
+      "case_folding": "remote control tidak peka",
+      "cleaning": "remote control tidak peka",
+      "tokenisasi": "remote control tidak peka",
+      "stopword_removal": "remote control peka",
+      "stemming": "remote control peka"
+    },
+    {
+      "no": 10,
+      "index_asli": 7078,
+      "review": "Sudah sampai mesin cuci nya terima kasih cepat ya 5 hari sampai...kerennn",
+      "case_folding": "sudah sampai mesin cuci nya terima kasih cepat ya 5 hari sampai...kerennn",
+      "cleaning": "sudah sampai mesin cuci nya terima kasih cepat ya hari sampai kerennn",
+      "tokenisasi": "sudah sampai mesin cuci nya terima kasih cepat ya hari sampai kerennn",
+      "stopword_removal": "mesin cuci terima kasih cepat kerennn",
+      "stemming": "mesin cuci terima kasih cepat kerennn"
+    }
+  ],
+  "statistik": {
+    "rata_panjang_karakter_sebelum": 103.57,
+    "rata_panjang_karakter_sesudah": 65.76,
+    "rata_panjang_kata_sebelum": 15.74,
+    "rata_panjang_kata_sesudah": 10.82,
+    "total_kata_sebelum": 182713,
+    "total_kata_sesudah": 125602,
+    "vocabulary_sebelum": 12558,
+    "vocabulary_sesudah": 10036,
+    "penurunan_vocabulary": 2522,
+    "penurunan_vocabulary_persen": 20.08,
+    "jumlah_teks_kosong": 20,
+    "persentase_teks_kosong": 0.17,
+    "jumlah_stopword_sastrawi": 809
+  }
+}

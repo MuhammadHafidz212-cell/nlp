@@ -1,0 +1,9 @@
+datasets>=2.19
+pandas>=2.0
+matplotlib>=3.7
+nltk>=3.8
+PySastrawi>=1.2.1
+jupyter>=1.0
+nbconvert>=7.0
+ipykernel>=6.0
+reportlab>=4.0
